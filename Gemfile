@@ -42,4 +42,5 @@ group :development, :test do
 end
 
 gem 'capybara', '~> 2.1.0', group: :test
+gem 'shoulda-matchers', '~> 2.6.0', group: :test
 
