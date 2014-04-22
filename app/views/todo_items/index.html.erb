@@ -1,12 +1,11 @@
 <h1><%= @todo_list.title %></h1>
 
-<table class="todo_items">
   <table class="todo_items">
   <thead>
-    <tr>
+    <tr width>
       <th width="25%">Completed?</th>
-      <th width="65%">Content</th>
-      <th width="10%">Functions</th>
+      <th width="55%">Content</th>
+      <th width="20%">Functions</th>
     </tr>
   </thead>
   <tbody>
@@ -30,5 +29,5 @@
 </table>
 
 <p>
-  <%= link_to "New Todo Item", new_todo_list_todo_item_path %>
+  <%= link_to "New Do-it Item", new_todo_list_todo_item_path %>
 </p>

@@ -11,6 +11,10 @@
  *= require_self
  *= require_tree .
  */
+a {
+  text-decoration: none;
+ }
+
 div.alert {
   border: 2px solid #aaa;
   padding: 10px;
@@ -25,12 +29,14 @@ div.flash.notice  { border: 2px solid blue;  color: blue;  }
 div.nav {
   border-bottom: 1px solid #aaa;
   margin-bottom: 20px;
-  padding: 10px 0 0 5px;
+  padding: 10px 0 0 0;
 }
 
 div.nav h1 {
+  font-family: 'Patrick Hand', 'cursive';
+  font-size: 36px;
   float: left;
-  margin: 0 1em 0 0;
+  margin: 5px 0 5px 0;
 }
 
 div.nav a { text-decoration: none !important; }
@@ -45,17 +51,49 @@ div.nav ul {
 
 div.nav ul li {
   float: left;
+
 }
 
 div.nav ul li a {
-  display: block;
+  display: inline-block;
   width: auto;
-  padding: 8px 10px 8px 10px;
+  padding: 8px 14px 8px 14px;
   background: #eee;
   color: #aaa;
+  text-decoration: none;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  margin-left: 2px;
 }
-
 div.nav ul li a:hover {
   background: #aaa;
   color: #eee;
+}
+
+.main-body {
+  width: 500px;
+  margin: auto;
+}
+
+h2 {
+-webkit-margin-before: 0;}
+
+
+textarea {
+  width: 250px;
+  height: 100px;
+}
+
+table {
+  width: 500px;
+}
+
+th {
+  border-bottom: 1px solid #aaa;
+  text-align: left;
+}
+
+h3 {
+  font-weight: normal;
 }
